@@ -9,7 +9,7 @@ pkg load optim
 % nao alterar: fim
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%
- NG = 4;
+ NG = 1;
  %f = @(x) (10*x(1) + (2*NG)*x(2));
  f = [10, 2*NG]';
 
