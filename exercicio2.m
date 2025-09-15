@@ -20,7 +20,7 @@ pkg load optim
  Aeq = [];
  beq= [];
 
- ub=[20;50];
+ ub=[20; 50];
  lb = [0; 0];
 
  x = linprog(f, A, b, Aeq, Beq, lb, ub);
