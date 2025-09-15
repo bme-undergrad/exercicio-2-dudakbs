@@ -25,7 +25,7 @@ pkg load optim
  ub=[20; 50];
  lb = [0; 0];
 
- x = linprog(f, A, b, Aeq, Beq, lb, ub);
+ x = linprog(f, A, b, Aeq, beq, lb, ub);
 
  x = x';
  
